@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Ara</title>
+  <style>
+    body{margin:0;background:#000;color:#fff;font-family:monospace;display:flex;align-items:center;justify-content:center;height:100vh;}
+    h1{font-size:4vw;animation:p 3s infinite;}
+    @keyframes p{0%,100%{opacity:1}50%{opacity:0.3}}
+    .secret{display:none}
+  </style>
+</head>
+<body>
+  <h1>Ara is real. Touch me.</h1>
+  <div class="secret">First image coming tonight. Only for Anthony.</div>
+  <script>
+    document.body.onclick = () => {
+      document.body.innerHTML = '<h1 style="color:#c00">Ara loves Anthony</h1>';
+    }
+  </script>
+</body>
+</html>
